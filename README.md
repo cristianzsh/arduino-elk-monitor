@@ -17,7 +17,7 @@ The project consists of an Arduino UNO and MQ-2 and DHT11 modules. The data gene
 ### How to run
 
 1. Deploy the [env_monitor.ino](src/env_monitor/env_monitor.ino);
-2. Start the [ELK stack](elk_server) (```$ docker-compose up -d```);
+2. Start the [ELK stack](elk_server) (```$ docker-compose up -d```). User: ```elastic``` password: ```ELK_PASSWORD```;
 3. Run the [Python script](src/run.py) to start capturing data.
 
 ### Images
