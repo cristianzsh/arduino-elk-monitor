@@ -14,6 +14,12 @@ The project consists of an Arduino UNO and MQ-2 and DHT11 modules. The data gene
   <img src="images/structure.png">
 </p>
 
+### How to run
+
+1. Deploy the [env_monitor.ino](src/env_monitor/env_monitor.ino);
+2. Start the [ELK stack](elk_server) (```$ docker-compose up -d```);
+3. Run the [Python script](src/run.py) to start capturing data.
+
 ### Images
 
 Kibana dashboard:
