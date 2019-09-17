@@ -22,7 +22,7 @@ The project consists of an Arduino UNO and MQ-2 and DHT11 modules. The data gene
 
 ### Images
 
-Kibana dashboard:
+Kibana dashboard (```http://yourip:5601```):
 
 <p align="center">
   <img src="images/screenshot.png">
