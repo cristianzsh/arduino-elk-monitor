@@ -6,7 +6,7 @@ import serial
 import time
 from elasticsearch import Elasticsearch
 
-ser = serial.Serial("/dev/ttyACM3")
+ser = serial.Serial("/dev/ttyACM0")
 ser.flushInput()
 
 es = Elasticsearch(["http://127.0.0.1:9200"], http_auth = ("elastic", "ELK_PASSWORD"))
